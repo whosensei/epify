@@ -381,8 +381,13 @@ Retrieves analytics data including most stocked and most expensive products.
 
 All endpoints follow consistent error response patterns:
 
-### Common Error Codes
+### Common Status Codes
 
+**Success Codes:**
+- **200 OK**: Request successful (GET requests)
+- **201 Created**: Resource created or updated successfully (POST/PUT requests)
+
+**Error Codes:**
 - **400 Bad Request**: Invalid request data or missing required fields
 - **401 Unauthorized**: Authentication required or invalid credentials
 - **404 Not Found**: Requested resource not found
