@@ -327,8 +327,7 @@ export default function ProductsViewPage() {
                                     onChange={(e) =>
                                       setNewQuantity(Number(e.target.value))
                                     }
-                                    min="0"
-                                    className="w-24 px-3 py-2 border border-slate-200 rounded-md focus:outline-none focus:ring-2 focus:ring-slate-950 focus:border-transparent text-sm"
+                                    className="w-24 px-3 py-2 text-slate-900 border border-slate-200 rounded-md focus:outline-none focus:ring-2 focus:ring-slate-950 focus:border-transparent text-sm"
                                     placeholder="Qty"
                                   />
                                   <div className="flex space-x-1">
