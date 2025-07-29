@@ -63,8 +63,6 @@ The setup includes pre-configured demo accounts:
 - **user2**: `user2@epify.com` / `password123`  
 - **user3**: `user3@epify.com` / `password123`
 
-📖 **For more Docker options, see [docs/DOCKER_SETUP.md](docs/DOCKER_SETUP.md)**
-
 ---
 
 ## 🔒 Security & Environment Variables
