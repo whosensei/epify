@@ -10,12 +10,9 @@
     "db:generate": "drizzle-kit generate",
     "db:migrate": "drizzle-kit migrate",
     "db:studio": "drizzle-kit studio",
-    "db:push": "drizzle-kit push",
-    "db:init": "node scripts/init-db.js",
-    "db:reset": "node scripts/reset-db.js"
+    "db:push": "drizzle-kit push"
   },
   "dependencies": {
-    "@neondatabase/serverless": "^1.0.1",
     "@types/bcryptjs": "^3.0.0",
     "@vercel/analytics": "^1.5.0",
     "bcrypt-ts": "^7.1.0",
@@ -24,6 +21,7 @@
     "drizzle-orm": "^0.44.3",
     "jsonwebtoken": "^9.0.2",
     "next": "15.4.4",
+    "postgres": "^3.4.7",
     "react": "19.1.0",
     "react-dom": "19.1.0"
   },
@@ -37,5 +35,6 @@
     "drizzle-kit": "^0.31.4",
     "tailwindcss": "^4",
     "typescript": "^5"
-  }
+  },
+  "packageManager": "pnpm@10.13.1+sha512.37ebf1a5c7a30d5fabe0c5df44ee8da4c965ca0c5af3dbab28c3a1681b70a256218d05c81c9c0dcf767ef6b8551eb5b960042b9ed4300c59242336377e01cfad"
 }
